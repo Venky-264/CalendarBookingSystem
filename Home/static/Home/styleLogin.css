@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-image: url('images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/*login*/
+
+.login form{
+    background-color: black;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.login form input{
+    display: block;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:7px;  
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:small;
+}
+form h1{
+    font-size:larger;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    color: white;
+}
+form p{
+    font-size:larger;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: white;
+}
+
+form select{
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:60px; 
+    margin-top: 20px; 
+    border-radius: 10px;
+    margin-left:80px;
+    font-size:small;
+}
+
+/*responsiveness*/
+
+@media screen and (max-width:800px) {
+    .login form{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .login form{
+        width: 80%;
+    }
+}
+@media screen and (max-width:340px) {
+    .login form{
+        width: 90%;
+    }
+}
+
+

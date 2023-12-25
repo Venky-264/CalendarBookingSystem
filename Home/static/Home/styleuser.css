@@ -1,0 +1,64 @@
+
+body{
+    background-color:  antiquewhite;;
+}
+
+a{
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+#courses{
+    display: inline-flex;
+    width: 300px;
+    padding: 20px;
+    background-color:rgb(89, 173, 247);
+    border-radius: 10px;
+}
+#courses p{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}
+
+#courses form input{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:1200px) {
+    #courses{
+        width: 400px;
+    }
+}
+@media screen and (max-width:1000px) {
+    #courses{
+        width: 300px;
+    }
+}
+@media screen and (max-width:800px) {
+    #courses{
+        width: 250px;
+    }
+}
+@media screen and (max-width:700px) {
+    #courses{
+        width:500px;
+    }
+}
+@media screen and (max-width:400px) {
+    #courses{
+        margin: 0px;
+    }
+    #courses p{
+        margin-left: 100px;
+    }
+}

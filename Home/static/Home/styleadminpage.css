@@ -1,0 +1,74 @@
+
+
+body{
+    background-image: url('images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+a{
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+form{
+    background-color: black;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+form input{
+    display: block;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:7px;  
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:small;
+}
+
+form h1{
+    font-size:larger;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    color: white;
+}
+form select{
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:60px; 
+    margin-top: 20px; 
+    border-radius: 10px;
+    margin-left:80px;
+    font-size:small;
+}
+
+
+@media screen and (max-width:800px) {
+    form{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    form{
+        width: 80%;
+    }
+}
+@media screen and (max-width:340px) {
+    form{
+        width: 90%;
+    }
+}

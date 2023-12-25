@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+body{
+    background-image: url('images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 1000;
+    color: black;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: burlywood;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 5px;
+}
+.navbar-brand::first-letter{
+    font-size: 50px;
+}
+.navbar-brand:hover{
+    color:white;
+}
+
+li{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 1000;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: burlywood;
+}
+
+.intro{
+    font-size:larger;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+}
+.intro::first-letter{
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: black;
+    font-style: italic;
+}
+
+/*signup*/
+
+.signup form{
+    background-color: black;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.signup form input{
+    display: block;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:7px;  
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:small;
+}
+form h1{
+    font-size:larger;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    color: white;
+}
+form p{
+    font-size:larger;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: white;
+}
+
+/*lectures*/
+
+.courses h2{
+    font-size:larger;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    color: black;
+}
+.courses h1{
+    font-size:50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+.courses .col-sm{
+    padding: 10px;
+    margin: 10px;
+    background-color: bisque;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.courses .col-sm a{
+    padding: 5px;
+    background-color: rgb(250, 142, 1);
+    border-radius: 10px;
+}
+
+.more{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    margin-top: 10px;
+}
+
+/*about*/
+.about p{
+    font-size: large;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*contact*/
+.contact{
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.personal{
+    padding:10px;
+    margin: 10px;
+}
+
+.personal p{
+    font-family: 'lobster';
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+.personal a{
+    text-decoration: none;
+    color:black;
+}
+.personal .social-media{
+    padding: 10px;
+}
+.personal p .social-media{
+    font-size: x-large;
+}
+.feedback{
+    padding:10px;
+    margin: 10px;
+    margin-left: 100px;
+}
+.feedback form{
+    padding: 10px;
+}
+.feedback form input{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'lobster';
+    font-weight: bold;
+    border-color: #A0BFE0;
+}
+.feedback p{
+    font-family: 'lobster';
+    font-weight: 1000;
+    color:black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.scroll-top{
+    position:fixed;
+    padding: 10px;
+    bottom:20px;
+    right: 40px;
+    border-style:none;
+    border-radius: 10%;
+    background-color: blue;
+}
+
+
+/*responsiveness*/
+
+@media screen and (max-width:800px) {
+    .signup form{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .profile{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .profile{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:650px) {
+    .feedback{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .signup form{
+        width: 80%;
+    }
+}
+@media screen and (max-width:340px) {
+    .signup form{
+        width: 90%;
+    }
+}
+
